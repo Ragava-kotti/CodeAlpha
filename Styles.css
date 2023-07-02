@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  section{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url("BackgroundLandingPage.jpg");
+  }
+
+  header{
+    position: absolute;
+    top: 0;
+    Left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  header .logo{
+    position: relative;
+    max-width: 150px;
+  }
+
+  header ul{
+    position: relative;
+    display: flex;
+  }
+
+  header ul li{
+    list-style: none;
+
+  }
+
+  header ul li a{
+    display: inline-block;
+    color: #000000;
+    font-weight: 400;
+    margin-left: 40px;
+    text-decoration: none;
+  }
+
+
+.style1{
+    writing-mode: vertical-lr;
+    border: solid black 1px;
+    display: inline-block;
+    height: 70px;
+    width: 35px;
+    margin: 10px 20px;
+    text-orientation: mixed;
+}
+
+.style1 h3{
+    font-family: 'Gill Sans' ;
+}
+
+.style2{
+    writing-mode: vertical-lr;
+    border: solid black 1px;
+    display: inline-block;
+    height: 100px;
+    width: 35px;
+    margin: 10px 20px;
+    text-orientation: mixed;
+}
+
+.image1
+{
+    width: 300px;
+    display: flex;
+    padding-right: 100px;
+    margin-left: 20px;
+    margin-bottom: 100px;
+    justify-content: flex-end;
+}
+
+.image1 img{
+  max-width: 300px;
+  max-height: 300px;
+}
